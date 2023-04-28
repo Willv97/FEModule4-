@@ -2,26 +2,121 @@ html {
   height: 100%;
   width: 100%;
 image-rendering: auto;
+}
 body {
     font-style: Garamond;
-};
-    }
+    background-color: lightgoldenrodyellow;
+    color: yellowgreen;
+}
 cite {
     color: red;
 }
+/*Change paragraph text color*/
 p {
     align-items: center;
+    color: yellowgreen;
 }
-p {
-    color: blue
+li {
+    color: forestgreen;
 }
-body {
-  background-color: lightgoldenrodyellow;
+footer {
+    color: forestgreen;
 }
-body {
-    color: blue;
-}
+/*Change paragraph text color*/
 div {
     margin-right: 2%;
 }
-<img src="lilacblue.jpg" width="300">
+button {
+    position: relative;
+}
+.white {
+    width: 250px;
+    height: fit-content;
+}
+.green {
+    width: 250px;
+    height: fit-content;
+}
+/*Change size of lilac&blue shoe img */
+.lilac {
+    width: 250px;
+    height:fit-content
+}
+/*Change size of black shoe img */
+.Black {
+    width: 250px;
+    height: 250px;   
+}
+/* Style the form container */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style the text input */
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add animation to the submit button */
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+button[type="submit"]:active {
+  background-color: #3e8e41;
+  transform: scale(1.1);
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2;
+}
+
+th {
+  background-color: #f2f2;
+}
+
+td:nth-child(1) {
+  width: 30%;
+}
+
+td:nth-child(2) {
+  width: 40%;
+}
+
+td:nth-child(3) {
+  width: 30%;
+}
